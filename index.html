@@ -1,236 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-	<title>QCS</title>
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>QCS</title>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 <body>
-	<div class="home">
-		<header>
-			<nav class="navbar navbar-default">
-				  <div class="container-fluid">
-				    <!-- Brand and toggle get grouped for better mobile display -->
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <!-- <span class="sr-only">Toggle navigation</span> -->
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				      <a class="navbar-brand" href="#">
-				      	<img src="./images/logo.jpg" width=80>
-				      </a>
-				    </div>
+<div class="home">
+    <button id="back_btn_top" title="回到顶部">
+        <img src="./images/2.png" alt="">
+    </button>
+    <header class="bg-opacity-70">
+        <nav class="navbar navbar-light navbar-expand-md item-wrap-max">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <!--<div class="navbar-header">-->
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.svg">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    aria-controls="navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-				    <!-- Collect the nav links, forms, and other content for toggling -->
-				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				      
-				      
-				      <ul class="nav navbar-nav navbar-right">
-				        <li class="navbar-active"><a href="#">主页</a></li>
-				        <li class=""><a href="./QCS.pdf" target="_blank">白皮书</a></li>
-				        <!-- <li class="dropdown">
-				          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-				          	<img src="./images/diqiu.png">
-				          </a>
-				          <ul class="dropdown-menu">
-				            <li><a href="#">简体中文</a></li>
-				            <li><a href="#">Engilsh</a></li>
-				          </ul>
-				        </li> -->
-				      </ul>
-				    </div><!-- /.navbar-collapse -->
-				  </div><!-- /.container-fluid -->
-				</nav>
-		</header>
+            <!--</div>-->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li><a href="#">主页</a></li>
+                    <li><a href="./QCS.pdf" target="_blank">白皮书</a></li>
+                    <li class="fenpeiBtn"><a href="javascript:;">代币分配</a></li>
+                    <li class="teamMember"><a href="javascript:;">团队成员</a></li>
+                    <li class="partnerBtn"><a href="javascript:;">合作伙伴</a></li>
+                    <!-- <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                          <img src="./images/diqiu.png">
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">简体中文</a></li>
+                        <li><a href="#">Engilsh</a></li>
+                      </ul>
+                    </li> -->
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </nav>
+    </header>
 
 
-		<div class="main">
-			<section class="banner">
-				<div>
-					<h1><span style="color: #D18D5C;">QCS</span> 溯源链</h1>
-					<h2>基于区块链技术的物联经济生态</h2>
-					<a href="./QCS.pdf" target="_blank"><button>查看白皮书</button></a>
-				</div>
-			</section>
+    <div class="main">
+        <section class="banner">
+            <div>
+                <h1><img src="./images/logo_white.svg" alt="" style="margin-right: 16px;vertical-align: text-bottom;"><span>QCS</span>品质链</h1>
+                <h2>基于区块链技术的物联经济生态</h2>
+                <a href="./QCS.pdf" target="_blank">
+                    <button>白皮书</button>
+                </a>
+                <div class="row app-social-wrap">
+                    <div><p><img src="./images/wechat.svg" alt=""></p></div>
+                    <div><p><img src="./images/qq.svg" alt=""></p></div>
+                    <div><p><img src="./images/facebook.svg" alt=""></p></div>
+                    <div><p><img src="./images/telegram.svg" alt=""></p></div>
+                    <div><p><img src="./images/email.svg" alt=""></p></div>
+                </div>
+            </div>
+        </section>
 
-			<!-- 生态规划 -->
-			<section class="ecology">
-				<h1>溯源链的特性</h1>
-				<!--<h2>甜甜圈生活消费生态系统的规划</h2>-->
-				<div class="ecology_content row">
-					<div class="item">
-						<img src="./images/01.svg">
-						<h2>可扩展</h2>
-						<p>高吞吐量与快速交易的完美平衡</p>
-					</div>
-					<div class="item">
-						<img src="./images/02.png">
-						<h2>无需信任 & 安全</h2>
-						<p>以成熟的公有链为依托，无需信用背书，安全可靠</p>
-					</div>
-					<div class="item">
-						<img src="./images/03.png">
-						<h2>委托证明共识</h2>
-						<p>一个强大而灵活的共识协议</p>
-					</div>
-				</div>
-				<!--<button><a href="./iDonut.pdf" target="_blank">查看白皮书</a></button>-->
-			</section>
+       <section class="qcs-introduce-wrap">
+           <h2 class="color-opacity-87">QCS是全球首个基于区块链技术，并结合物联网技术实时追踪食品相关数据的食品检测领域的解决方案，致力于改变当前食品质量控制的市场格局，解决食品可信任数据传递的痛点。</h2>
+           <div class="item-wrap-max">
+               <img src="./images/diagram1.png" alt="" width="100%" style="margin-top: 56px;margin-bottom: 56px;">
+               <div class="introduce-list-wrap row justify-content-between">
+                   <div class="item">
+                       <img src="./images/diagram2.png" alt="">
+                       <p>高吞吐量与快速交易的完美平衡</p>
+                   </div>
+                   <div class="item">
+                       <img src="./images/diagram2.png" alt="">
+                       <p>以成熟的公有链为依托，无需信用背书，安全可靠</p>
+                   </div>
+                   <div class="item">
+                       <img src="./images/diagram2.png" alt="">
+                       <p>一个强大而灵活的共识协议</p>
+                   </div>
+               </div>
+           </div>
+       </section>
 
-			<!-- 食品安全检测与溯源的痛点 -->
-			<section class="project">
-				<h1>食品安全检测与溯源的痛点</h1>
-				<div class="food-notice-wrap">
-					<div class="item">
-						<img src="./images/1.svg">
-						<p>食源性疾病和群体生物中毒事件的发生频率高</p>
-					</div>
-					<div class="item">
-						<img src="./images/2.svg">
-						<p>食品检测服务依赖于第三方中心化系统，无法使需求者之间进行交易</p>
-					</div>
-					<div class="item">
-						<img src="./images/3.svg">
-						<p>监管部门人员配备不均、检测经费有限直接导致有法不依、执法不严</p>
-					</div>
-					<div class="item">
-						<img src="./images/4.svg">
-						<p>商家的道德滑坡，（少数）食品生产经营者不讲诚信道德，目无法纪，唯利是图</p>
-					</div>
-					<div class="item">
-						<img src="./images/5.svg">
-						<p>消费者和商家缺乏食品安全知识，对检测数据没有直观的认识，导致无法辨别食品的优劣</p>
-					</div>
-					<div class="item">
-						<img src="./images/6.svg">
-						<p>传统的数据存储方式，食品全生命周期的检测数据占用空间过大并且容易被认为的修改。</p>
-					</div>
-				</div>
-			</section>
+        <!-- 食品安全检测与溯源的痛点 -->
+        <section class="qcs-project-wrap">
+            <h2>食品安全检测与溯源的痛点</h2>
+            <div class="food-notice-wrap row item-wrap-max justify-content-between">
+                <div class="item">
+                    <img src="./images/1.svg">
+                    <p>食源性疾病和群体生物中毒事件的发生频率高</p>
+                </div>
+                <div class="item">
+                    <img src="./images/2.svg">
+                    <p>食品检测服务依赖于第三方中心化系统，无法使需求者之间进行交易</p>
+                </div>
+                <div class="item">
+                    <img src="./images/3.svg">
+                    <p>监管部门人员配备不均、检测经费有限直接导致有法不依、执法不严</p>
+                </div>
+                <div class="item">
+                    <img src="./images/4.svg">
+                    <p>商家的道德滑坡，（少数）食品生产经营者不讲诚信道德，目无法纪，唯利是图</p>
+                </div>
+                <div class="item">
+                    <img src="./images/5.svg">
+                    <p>消费者和商家缺乏食品安全知识，对检测数据没有直观的认识，导致无法辨别食品的优劣</p>
+                </div>
+                <div class="item">
+                    <img src="./images/6.svg">
+                    <p>传统的数据存储方式，食品全生命周期的检测数据占用空间过大并且容易被认为的修改。</p>
+                </div>
+            </div>
+        </section>
 
-			<!-- 基于区块链技术的解决方案 -->
-			<section class="skill">
-				<h1>基于区块链技术的解决方案</h1>
-				<div class="skill_content row">
+        <!-- 基于区块链技术的解决方案 -->
+        <section class="skill">
+            <h2>基于区块链技术的解决方案</h2>
+            <div class="skill_content item-wrap-max">
+                <div class="skill_contentImg"><img src="./images/diagram2.png" alt=""></div>
 
-					<div class="skill_left">
-						<div class="item_top item">
-							<h1>增强参与者之间的信任度</h1>
-							<p>
-								QCS提供“更高水平的可追溯性与审计”，提供不被篡改的所有权记录，使得信息的传递环节更加清晰透明。运用区块链的信息不可篡改的特性，促使食品供应方提供真实有效的信息，一旦在后续流程中发现食品质量信息的虚假，初始的供应方便无法抵赖，提高了造假的作案成本，减少了作弊几率。
-							</p>
-						</div>
-						<div class="item_bottom item">
-							<h1>诚信行为激励机制</h1>
-							<p>甜甜圈服务平台基于区块链、智能合约、以及人工智能技术开发，目的是建立一个更加可靠、智慧的首个全球生活消费生态系统，从根本上重构旅行全产业的信任体系，探索实现</p>
-						</div>
-					</div>
+            </div>
+        </section>
 
-					<!--<div class="skill_meddle visible-lg-block">-->
-						<!--<img src="./images/circle.png">-->
-					<!--</div>-->
 
-					<div class="skill_right">
-						<div class="item_top item">
-							<h1>分布式数据存储</h1>
-							<p>采用分布式账本技术，使食品质量检测数据对全网所有人公开，透明化的食品信息共享率大幅度提升。并且无法被参与环节的任何一方所篡改，增加了食品检测数据在整体传输过程中的可信任度。</p>
-						</div>
-						<div class="item_bottom item">
-							<h1>食品检测共享生态 </h1>
-							<p>打造供应商、检测者、监管部门、商家、消费者共同参与的多角色食品质量控制生态体系，生态中的所有节点建立连接，彼此连接的节点间数据传递被其他节点所证明，大大减少数据虚假的可能。</p>
-						</div>
-					</div>
-				</div>
-			</section>
+        <!-- 基于区块链技术的解决方案 -->
+        <section class="code-allocation-wrap">
+            <h2>代币分配比例</h2>
+            <p style="color: #ffffff;font-size: 14px;">QCS初始总量为 100 亿，分配方案如下</p>
+            <div class="code-allocationl-content item-wrap-max">
+                <div class="code-allocationImg"><img src="./images/diagram3.png" alt=""></div>
+            </div>
+        </section>
 
-			<!-- QCS 生态规划 -->
-			<section class="project">
-				<h1>QCS 生态规划</h1>
-				<div class="ecology-project-wrap">
-					<div class="item">
-						<div class="ecology-circle-wrap">
-							<div>
-								<p>QCS生态</p>
-								<p>V <span class="program-version">1.0</span></p>
-							</div>
-						</div>
-						<div class="item-right-section">采用人工或传统便捷方式（扫码枪）在各个环节录入数据，上传数据到区块链中，提高生产者与消费者之间的信任度，增加企业公信力。</div>
-					</div>
-					<div class="item">
-						<div class="ecology-circle-wrap">
-							<div>
-								<p>QCS生态</p>
-								<p>V <span class="program-version">2.0</span></p>
-							</div>
-						</div>
-						<div class="item-right-section">
-							<p>通过物联网技术真正实现在溯源流程中的数据全自动、无干扰、可信采集 </p>
-							<p>数据由物联网节点设备采集后直接上链，再有区块链保证数据的无篡改 </p>
-							<p>在全产业链流程中增加上链环节，更多的绝对可靠真实数据上链，并不可篡改，保证产品的品质的透明，公开 </p>
-							<p>规范化溯源数据采集设备，指定标准，由此来确保数据采集环节的绝对可信 </p>
-						</div>
-					</div>
-					<div class="item">
-						<div class="ecology-circle-wrap">
-							<div>
-								<p>QCS生态</p>
-								<p>V <span class="program-version">3.0</span></p>
-							</div>
-						</div>
-						<div class="item-right-section">
-							<p>开放区块链平台，构建一个服务于物联网的技术链。基于QCS平台，更多的设备可以实现快速加载、低成本、点对点的互联互通，从而促进整个物联网的规模化扩展，当更多的设备互联，就可以在此基础上实现更多的DApp开发，形成物联经济。</p>
-							<p>更进一步，基于区块链的去中心化架构，可以真正在物联网上实现边缘计算和节点自治。</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<!-- 团队介绍 -->
-			<section class="team">
-				<h1>核心团队成员</h1>
-				<div class="team_content row">
-					<div class="item">
-						<div class="img-header"></div>
-						<h3>未知</h3>
-						<span>CEO</span>
-						<p>
-							你好👋
-						</p>
-					</div>
-					<div class="item">
-						<div class="img-header"></div>
-						<h3>未知</h3>
-						<span>COO</span>
-						<p>
-							你好👋
-						</p>
-					</div>
-					<div class="item">
-						<div class="img-header"></div>
-						<h3>未知</h3>
-						<span>CTO</span>
-						<p>
-							你好👋
-						</p>
-					</div>
-				</div>
+        <!-- QCS 生态规划 -->
+        <section class="zoology-build-wrap">
+            <h2>QCS 生态建设</h2>
+            <div class="ecology-project-wrap row item-wrap-max">
+                <div class="item">
+                    <div class="ecology-circle-wrap">
+                        <div>
+                            <p>QCS生态</p>
+                            <p><span class="program-version">1.0</span></p>
+                        </div>
+                    </div>
+                    <div class="item-right-section">采用人工或传统便捷方式（扫码枪）在各个环节录入数据，上传数据到区块链中，提高生产者与消费者之间的信任度，增加企业公信力。</div>
+                </div>
+                <div class="item">
+                    <div class="ecology-circle-wrap">
+                        <div>
+                            <p>QCS生态</p>
+                            <p><span class="program-version">2.0</span></p>
+                        </div>
+                    </div>
+                    <div class="item-right-section">
+                        <ul>
+                            <li><p>通过物联网技术真正实现在溯源流程中的数据全自动、无干扰、可信采集 </p></li>
+                            <li><p>数据由物联网节点设备采集后直接上链，再有区块链保证数据的无篡改 </p></li>
+                            <li><p>在全产业链流程中增加上链环节，更多的绝对可靠真实数据上链，并不可篡改，保证产品的品质的透明，公开 </p></li>
+                            <li><p>规范化溯源数据采集设备，指定标准，由此来确保数据采集环节的绝对可信 </p>
+                        </ul>
 
-			</section>
-		</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="ecology-circle-wrap">
+                        <div>
+                            <p>QCS生态</p>
+                            <p><span class="program-version">3.0</span></p>
+                        </div>
+                    </div>
+                    <div class="item-right-section">
+                        <p>
+                            开放区块链平台，构建一个服务于物联网的技术链。基于QCS平台，更多的设备可以实现快速加载、低成本、点对点的互联互通，从而促进整个物联网的规模化扩展，当更多的设备互联，就可以在此基础上实现更多的DApp开发，形成物联经济。</p>
+                        <p>更进一步，基于区块链的去中心化架构，可以真正在物联网上实现边缘计算和节点自治。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 团队介绍 -->
+        <section class="team team-intro-wrap">
+            <h1>核心团队成员</h1>
+            <div class="team_content item-wrap-max">
+                <div class="item-wrap row">
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>许某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            前中兴通讯通信高级专家，16年通信设备、IC和工业领域产品设计研发经验。通信设备、物联网、工业制造和控制、人工智能复合型技术专家。设计的通信系统服务于美国AT&T、法国电信、荷兰皇家KPN、英国BT等多家国际通信运营商。IC设计方面完成EPON、GPON、10GEPON等重大光通信芯片项目的设计开发。拥有众多专利。丰富的产品设计研发、研发团队管理经验。国家相关物联网标准参与制定者。多家物联网公司顾问。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>W.XXXX</h3>
+                            </div>
+                        </div>
+                        <p>
+                            斯坦福大学博士，从事密码学，信息论和人工智能的研究。毕业后在Google和归国在多家人工智能创业公司工作，其产品服务于包含世界五百强企业等数百家客户。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>姚某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            前清华大学微电子教授，后前往硅谷，任职多家美国半导体公司，在超大规模集成电路设计，高速基带传输，超大规模SoC嵌入式系统，通信网络，信息安全方面有18年研发经验。1项国际标准创始人，3项美国发明专利和十几项中国专利。2010年与邓中翰、李彦宏、张朝阳四人同获首届海归人才腾飞奖。第一届“信息产业部十佳中国芯”。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>师某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            物联网平台系统首席架构师，之前就职于SAP Labs美国硅谷办公室。15年互联网分布式平台系统开发经验。全球能够深入理解Java反编译原理的百人之一。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>周某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            南京大学电子系博士，曾经工作于诺基亚等大型公司，专注于网络安全、密码学等技术领域，具备13年的研发经验，主导产品多次获得省部级科技进步奖。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>朱某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            中国科学院大学博士，入选中国科学院青年创新促进会会员，专注于物联网传感领域，对物联网架构，应用有深入的研究，多次获得中国科学院杰出科技成就奖。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>彭某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            中国科学技术大学研究生，15年嵌入式系统开发经验，精通多任务实时操作系统开发、设备驱动和硬件子系统、物联网标准和协议。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>曹某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            南京航空航天大学研究生，13年互联网平台开发经验，前华为电信运行管理系统开发高级工程师。
+                        </p>
+                    </div>
 
-		<footer>
-			<div>
-				<span>&#169 2018 idonut Foundation. All rights reserved.</span>
-				 <span>Contact Us</span>
-			</div>
-		</footer>
-	</div>
-	<script type="text/javascript" src='./js/jquery.min.js'></script>
-	<script type="text/javascript" src='./js/bootstrap.min.js'></script>
-	<script type="text/javascript" src='./js/index.js'></script>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>魏某某</h3>
+                            </div>
+                        </div>
+                        <p>
+                            东南大学博士，南京邮电大学研究生导师，主要研究方向为机器学习，模式识别中的统计模型建模。主持并参与一项国家自然科学基金青年基金。在国内外期刊和会议上发表多篇论文，并有一些专利获得授权。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="img-header"></div>
+                            <div>
+                                <span>CEO</span>
+                                <h3>Sun</h3>
+                            </div>
+                        </div>
+                        <p>
+                            南加州大学密码学研究生毕业，之前供职于Oracle Redwood City美国研发总部，8年专注于数据库、信息安全领域，深刻理解PKI、IDS、RSA等。
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!--合作伙伴-->
+        <section class="partner-wrap">
+            <h2 style="color:rgba(0,0,0,.87)">合作伙伴</h2>
+            <div class="row item-wrap-max partner-list">
+                <div class="item"></div>
+                <div class="item"></div>
+
+                <div class="item"></div>
+
+                <div class="item"></div>
+                <div class="item"></div>
+
+                <div class="item"></div>
+
+
+            </div>
+        </section>
+    </div>
+
+
+    <footer>
+        <div>
+            <span>&#169 2018 idonut Foundation. All rights reserved.</span>
+            <div class="row">
+                <a href="javascript:;"><img src="./images/email.svg" alt="" width="20"></a>
+                <a href="javascript:;"><img src="./images/qq.svg" alt="" width="20"></a>
+                <a href="javascript:;"><img src="./images/wechat.svg" alt="" width="20"></a>
+                <a href="javascript:;"><img src="./images/telegram.svg" alt="" width="20"></a>
+
+            </div>
+        </div>
+    </footer>
+</div>
+<script type="text/javascript" src='./js/jquery.min.js'></script>
+<script type="text/javascript" src='./js/bootstrap.min.js'></script>
+<script type="text/javascript" src='./js/index.js'></script>
 </body>
 </html>
 

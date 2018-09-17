@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-932.000000, -446.000000)" fill-rule="nonzero">
+            <g id="facebook" transform="translate(932.000000, 446.000000)">
+                <circle id="Oval-Copy" fill-opacity="0.24" fill="#000000" cx="28" cy="28" r="28"></circle>
+                <path d="M33.4240367,28 L29.5931081,28 L29.5931081,42 L23.8996775,42 L23.8996775,28 L21,28 L21,23.1761137 L23.904091,23.1761137 L23.904091,20.2343925 C23.904091,16.353824 25.5282635,14 30.0587337,14 L33.8896622,14 L33.8896622,18.8238863 L31.5615345,18.8238863 C29.8181973,18.8238863 29.7034459,19.5302571 29.7034459,20.7038161 L29.7034459,23.0576401 L34,23.0576401 L33.4196232,27.9977646 L33.4240367,28 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
