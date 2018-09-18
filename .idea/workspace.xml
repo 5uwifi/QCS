@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c85c48d3-3a08-4ccd-b366-157fb03fc8f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/images/diagram3.png" afterPath="$PROJECT_DIR$/images/diagram3.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="179">
+              <caret line="448" column="11" lean-forward="false" selection-start-line="448" selection-start-column="11" selection-end-line="448" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -74,7 +72,6 @@
       <find>food-notice-wrap</find>
       <find>team_content</find>
       <find>.team_content .item h3</find>
-      <find>.team_content .item</find>
       <find>.partner-list .item</find>
       <find>代币分配</find>
       <find>team</find>
@@ -88,6 +85,7 @@
       <find>.introduce-list-wrap .item</find>
       <find>introduce-list-wrap</find>
       <find>introduce-list-wrap row</find>
+      <find>.team_content .item</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -244,12 +242,12 @@
       <updated>1536142094788</updated>
       <workItem from="1536142096645" duration="25657000" />
       <workItem from="1536829140841" duration="3317000" />
-      <workItem from="1536915713210" duration="25722000" />
+      <workItem from="1536915713210" duration="26174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54696000" />
+    <option name="totallyTimeSpent" value="55148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -353,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="179">
+          <caret line="448" column="11" lean-forward="false" selection-start-line="448" selection-start-column="11" selection-end-line="448" selection-end-column="11" />
           <folding />
         </state>
       </provider>

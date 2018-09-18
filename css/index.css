@@ -446,7 +446,7 @@ section>h2 {
 }
 .team_content .item {
 	position: relative;
-	flex: 0 0 360px;
+	flex: 1 0 360px;
 	padding: 0 20px;
 	margin-top: 64px;
 }
