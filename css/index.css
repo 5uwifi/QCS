@@ -28,9 +28,13 @@ a:focus {
 }
 #back_btn_top {
 	position: fixed;
-	bottom: 10px;
-	right: 16px;
+	bottom: 64px;
+	right: 0;
 	display: none;
+	background: none;
+	border: none;
+	cursor: pointer;
+	outline: none;
 }
 html {
 	/* min-width: 1366px; */
@@ -87,7 +91,8 @@ body {
 	padding-right: 0;
 }
 .navbar-toggler {
-	background-color: buttonface;
+	background-color: transparent;
+	border: 0;
 }
 /* main */
 section {
@@ -228,8 +233,8 @@ section>h2 {
 	background-color: #f0f2f5;
 }
 .introduce-list-wrap .item {
-	flex-basis: 368px;
-	/*margin-right: 24px;*/
+	flex: 0 1 32%;
+	margin: 0 auto;
 	border-radius: 8px;
 	overflow: hidden;
 	text-align: center;
@@ -441,8 +446,8 @@ section>h2 {
 }
 .team_content .item {
 	position: relative;
-	flex: 1 0 360px;
-	margin:0 auto;
+	flex: 0 0 360px;
+	padding: 0 20px;
 	margin-top: 64px;
 }
 .team_content .item .img-header {
@@ -588,8 +593,13 @@ footer span {
 	}
 
 	/*----------------------------qcs - introduce-mobile-wrap------------------------------*/
+	.introduce-list-wrap {
+		justify-content: center!important;
+		-webkit-box-pack: center!important;
+		-ms-flex-pack: center!important
+	}
 	.introduce-list-wrap .item {
-		flex-basis: 100%;
+		flex: 0 1 100%;
 		margin: 16px auto;
 		padding: 0 16px;
 	}
@@ -610,7 +620,7 @@ footer span {
 		margin-top: 30px;
 	}
 	.food-notice-wrap {
-		padding: 20px;
+		padding: 36px 20px!important;
 		justify-content: center!important;
 	}
 	.food-notice-wrap .item {

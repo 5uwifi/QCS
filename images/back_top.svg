@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>返回顶部</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M32,0 C14.3264907,0 0,14.3264907 0,32 C0,49.6735093 14.3264907,64 32,64 C49.6735093,64 64,49.6735093 64,32 C64,14.3264907 49.6735093,0 32,0 Z" id="path-1"></path>
+        <filter x="-29.7%" y="-26.6%" width="159.4%" height="159.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="New" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1546.000000, -3914.000000)" fill-rule="nonzero">
+            <g id="返回顶部" transform="translate(1558.000000, 3924.000000)">
+                <g id="Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <path d="M47.3599432,35.19375 C46.5845766,35.90625 45.4396994,35.9125 44.6643328,35.25 C44.5734696,35.18125 44.4886639,35.1125 44.4099157,35.025 L34.0151576,24.26875 L34.0151576,45.8 C34.0151576,46.98125 33.0883523,47.93125 31.9495326,47.93125 C30.810713,47.93125 29.8839076,46.98125 29.8839076,45.8 L29.8839076,24.2625 L19.4709769,35.025 C19.0711785,35.39375 18.5744593,35.56875 18.0777401,35.56875 C17.5083303,35.56875 16.9389205,35.33125 16.527007,34.85625 C15.824331,34.04375 15.824331,32.825 16.527007,32.0125 L30.4714901,17.625 C30.877346,17.20625 31.4104106,17 31.9434751,17 C32.4765396,17 33.0096041,17.20625 33.41546,17.625 L47.3599432,32.0125 C47.4205187,32.06875 47.4750367,32.125 47.5234971,32.18125 C48.2867485,33.05625 48.2080004,34.40625 47.3599432,35.19375 Z" id="Path" fill-opacity="0.600000024" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>
