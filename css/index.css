@@ -103,7 +103,7 @@ section {
 section>h2 {
 	max-width: 640px;
 	line-height: 28px;
-	font-size: 20px;
+	font-size: 34px;
 	text-align: center;
 	margin: 8px auto;
 	color: #ffffff;
@@ -208,7 +208,17 @@ section>h2 {
 	max-width: 480px;
 }
 .banner .app-social-wrap > div {
+	position: relative;
 	flex-basis: 56px;
+}
+.qq-qrcode-wrap ,.wx-qrcode-wrap, .db-qrcode-wrap{
+	position: absolute;
+	bottom: 80px;
+	left: -30%;
+	display: none;
+}
+.banner .app-social-wrap > div div img {
+	max-width: 100px;
 }
 .banner .app-social-wrap p {
 	width:56px;
@@ -456,6 +466,10 @@ section>h2 {
 	border-radius: 36px;
 	background:rgba(235,235,235,1);
 	margin-right: 16px;
+	overflow: hidden;
+}
+.team_content .item .img-header img {
+	width: 100%;
 }
 .team_content .item span {
 	display: block;
@@ -485,12 +499,21 @@ section>h2 {
 }
 .partner-list .item{
 	width:368px;
-	height:200px;
+	cursor: pointer;
+	/*height:200px;*/
 	background:rgba(235,235,235,1);
 	border-radius:8px;
 	margin-top: 32px;
-	margin-left: auto;
+	/*margin-left: auto;*/
 	margin-right: auto;
+}
+.partner-list .item a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.partner-list .item img {
+	width: 100%;
 }
 /*.partner-list .item:nth-child(3n) {*/
 	/*margin-right: 0;*/
@@ -517,6 +540,9 @@ footer span {
 	display: inline-block;
 	color: rgba(255, 255, 255,.50);
 }
+.application-place-wrap {
+	padding-bottom: 64px;
+}
 @media (min-width: 768px) and (max-width: 1080px) {
 	.banner>div:before {
 		width: 320px;
@@ -536,8 +562,9 @@ footer span {
 	html {
 		min-width: auto;
 	}
-	section > h2 {
+	section>h2 {
 		padding: 0 16px;
+		line-height: 38px;
 	}
 	.home .item-wrap-max{
 		max-width: 100%;
@@ -585,12 +612,14 @@ footer span {
 		bottom: 0;
 	}
 	.banner .app-social-wrap>div {
+		position: relative;
  		flex-basis: 32%;
 	}
 	.banner .app-social-wrap>div p {
 		margin-left: auto;
 		margin-right: auto!important;
 	}
+
 
 	/*----------------------------qcs - introduce-mobile-wrap------------------------------*/
 	.introduce-list-wrap {
@@ -661,6 +690,12 @@ footer span {
 		margin-top: 30px;
 		text-align: left;
 	}
+	.application-place-wrap {
+		padding: 32px;
+	}
+	.application-place-wrap img {
+		width: 100%;
+	}
 
 	/*Qcs生态规划*/
 	.ecology-project-wrap .item {
@@ -684,7 +719,9 @@ footer span {
 		flex: none;
 		margin-top: 32px;
 	}
-
+	.partner-list .item {
+		width: 48%;
+	}
 
 	/* footer */
 	footer {
