@@ -344,7 +344,7 @@ section>h2 {
 
 /* .skill */
 .skill {
-	background-color: rgba(0,0,0,.8);
+	/* background-color: rgba(0,0,0,.8); */
 }
 .skill_content {
 	display: flex;
@@ -395,6 +395,85 @@ section>h2 {
 .code-allocationl-content img {
 	width: 780px;
 }
+/*---------------------------------superiority-warp------------------------------------*/
+.superiority-warp{
+	padding-top: 64px!important;
+	padding-bottom: 56px!important;
+	flex-wrap: wrap;
+}
+.superiority-item{
+	flex: 1 1 32%;
+	position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+	text-align: center;
+	align-content: center;
+	padding-top: 64px
+}
+
+.superiority-item img{
+	width:100%;
+}
+.superiority-item .icon{
+	top: 140px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 54%;
+    margin-left: -40px;
+    transition: all 0.4s;
+}
+.superiority-item .title{
+	color: #fff;
+    font-size: 22px;
+    text-align: center;
+    top: 215px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transition: all 0.4s;
+}
+.superiority-item .desc{
+	top: 290px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    padding: 0 35px;
+    color: #fff;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 24px;
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+.superiority-item .bg_color{
+	position: absolute;
+    top: 64px;
+    left: 0;
+    height: 400px;
+    width: 100%;
+    transition: all .2s;
+    background-color: rgba(22,26,29,0);
+}
+/*动画*/
+.superiority-item:hover .icon{
+	top:100px
+}
+.superiority-item:hover .title{
+	top:180px
+}
+.superiority-item:hover .desc{
+	top: 214px;
+	opacity:90;
+	transition: all 0.4s;
+}
+.superiority-item:hover .bg_color{
+	background-color: rgba(33, 211, 129, 0.7);
+	transition: all .4s;
+}
+
+
 /*----------------------------------------QCS生态规划---------------------------------*/
 .zoology-build-wrap {
 	background-color: #303031;
@@ -727,6 +806,7 @@ footer span {
 	footer {
 		padding: 0 30px;
 	}
+
 }
 
 
