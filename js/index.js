@@ -1,10 +1,10 @@
 $(document).ready(function () {
-    var fenpeiScrollTop = $('.code-allocation-wrap').offset().top;
+    // var fenpeiScrollTop = $('.code-allocation-wrap').offset().top;
     var teamMemberScrollTop = $('.team-intro-wrap').offset().top;
     var partnerBtnScrollTop = $('.partner-wrap').offset().top;
-    $('.fenpeiBtn').click(function () {
-        $('html,body').animate({ scrollTop: fenpeiScrollTop }, 500);
-    })
+    // $('.fenpeiBtn').click(function () {
+    //     $('html,body').animate({ scrollTop: fenpeiScrollTop }, 500);
+    // })
     $('.teamMember').click(function () {
         $('html,body').animate({ scrollTop: teamMemberScrollTop }, 500);
     })
