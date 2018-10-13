@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // var fenpeiScrollTop = $('.code-allocation-wrap').offset().top;
     var teamMemberScrollTop = $('.team-intro-wrap').offset().top;
-    var partnerBtnScrollTop = $('.partner-wrap').offset().top;
+    var partnerBtnScrollTop = $('.hezuo').offset().top;
     // $('.fenpeiBtn').click(function () {
     //     $('html,body').animate({ scrollTop: fenpeiScrollTop }, 500);
     // })
