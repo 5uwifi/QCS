@@ -179,6 +179,9 @@ section>h2 {
 	border-radius: 5px;
 	background-color: #ffffff;
 }
+.banner>div h5 {
+	margin-bottom: 0;
+}
 .banner>div h2 {
 	font-size: 34px;
 	line-height: 62px;
