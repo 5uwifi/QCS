@@ -11,6 +11,36 @@
 </head>
 <body>
 <div class="home">
+    <style type="text/css">
+        .modal-header {
+            display: flex;
+            justify-content: center;
+        }
+        .modal-body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            QCSS官方提醒
+
+          </div>
+          <div class="modal-body">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;近期市场出现冒充QCSS项目的非官方代投，具有极大的迷惑性和欺骗性。我方做出如下声明：除了QCSS官方指定渠道，市场上可能存在的任何号称与本项目有关的代投机构都与我方无关。为防范风险，QCSS代币发行进展以QCSS官网和官方微信公众号公告为准。</p>
+            <img src="images/QRcode.jpg" width="200px" height="200px">
+            <span>扫码关注我们！</span>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <button id="back_btn_top" title="回到顶部">
         <img src="./images/back_top.svg" alt="">
     </button>
@@ -657,6 +687,9 @@
 <script type="text/javascript" src='./js/jquery.min.js'></script>
 <script type="text/javascript" src='./js/bootstrap.min.js'></script>
 <script type="text/javascript" src='./js/index.js'></script>
+<script type="text/javascript">
+    $('#myModal').modal()
+</script>
 </body>
 </html>
 
